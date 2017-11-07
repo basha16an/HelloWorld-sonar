@@ -7,17 +7,16 @@ pipeline{
             }
         }
          stage('Build'){
-               steps{
+            steps {
                 sh 'printenv'
-                
                 }
-                echo "echo'hello this is Build'"
+
             
         }
        
          stage('Bundle'){
             steps {
-                
+                echo "bundle"
              
             }
         }
