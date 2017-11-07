@@ -1,0 +1,39 @@
+pipeline{
+    agent any 
+    envirornment {
+        name='basha'
+    }
+    stages {
+        stage('Sync'){
+            steps{
+                echo "echo'hello this is Sync'"
+            }
+        }
+         stage('Build'){
+             envirornment{
+                    age='23'
+                    log=credentials("basha")
+             }
+            steps{
+                sh 'printenv'
+                
+                }
+                echo "echo'hello this is Build'"
+            
+        }
+       
+         stage('Bundle'){
+            steps {
+                
+                echo "echo'hello this is Bundle'"
+            }
+        }
+    }
+     post{
+            always{
+                                       echo "Failure"
+               
+                
+            }
+        }
+}
