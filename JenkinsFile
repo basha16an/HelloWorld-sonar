@@ -1,8 +1,5 @@
 pipeline{
     agent any 
-    envirornment {
-        name='basha'
-    }
     stages {
         stage('Sync'){
             steps{
@@ -10,11 +7,7 @@ pipeline{
             }
         }
          stage('Build'){
-             envirornment{
-                    age='23'
-                    log=credentials("basha")
-             }
-            steps{
+               steps{
                 sh 'printenv'
                 
                 }
