@@ -18,7 +18,7 @@ pipeline{
          stage('Bundle'){
             steps {
                 
-                echo "echo'hello this is Bundle'"
+             
             }
         }
     }
