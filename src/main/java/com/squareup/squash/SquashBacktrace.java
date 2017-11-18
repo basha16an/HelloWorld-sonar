@@ -26,6 +26,7 @@ public final class SquashBacktrace {
 
   private SquashBacktrace() {
     // Should not be instantiated: this is a utility class.
+	 
   }
 
   public static List<SquashException> getBacktraces(Throwable error) {
