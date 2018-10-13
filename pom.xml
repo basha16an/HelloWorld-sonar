@@ -18,8 +18,23 @@
 
   <name>Squash Java</name>
   <description>Java client for the Squash exception reporting API.</description>
- Goood morning
-	
+  <inceptionYear>2012</inceptionYear>
+
+  <scm>
+    <url>https://github.com/SquareSquash/java</url>
+    <connection>scm:git:git://github.com/SquareSquash/java.git</connection>
+    <developerConnection>scg:git:git@github.com/SquareSquash/java.git</developerConnection>
+  </scm>
+
+  <organization>
+    <name>Square, Inc.</name>
+    <url>http://squareup.com</url>
+  </organization>
+
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/SquareSquash/java/issues</url>
+  </issueManagement>
 
   <licenses>
     <license>
@@ -36,8 +51,40 @@
     <junit.version>4.10</junit.version>
     <fest.version>1.4</fest.version>
     <mockito.version>1.8.5</mockito.version>
-    Good moring Hello World'
-  sasdsds
+    <gson.version>2.2.2</gson.version>
+	<sonar.projectKey>SampleJava</sonar.projectKey>
+	<sonar.projectName>SampleJava</sonar.projectName>
+	<sonar.projectBaseDir>E:/Practice/Maven/SampleJava</sonar.projectBaseDir>
+	<sonar.sources>src/main</sonar.sources>
+	<sonar.test.inclusions>srrc/test</sonar.test.inclusions>
+	<sonar.exclusions></sonar.exclusions>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.easytesting</groupId>
+      <artifactId>fest-assert</artifactId>
+      <version>${fest.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>${mockito.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>${gson.version}</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <build>
