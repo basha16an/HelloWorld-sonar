@@ -6,17 +6,20 @@ reporting and management system.
 
 Documentation
 -------------
+Hello i m basha
 
-For an overview of the various components of Squash, see the website
-documentation at https://github.com/SquareSquash/web.
+how about yu
 
-Compatibility
--------------
+i am an indian
 
-This library is compatible with J2SE 1.6 or newer. All dependencies are handled
-by Maven.
-
-Usage
+al String API_KEY = "YOUR_API_KEY";
+    private static final String CLIENT_ID = "android";
+    private static final String DEBUG = "Debug";
+    private static final String RELEASE = "Release";
+    // Transient so it doesn't try to serialize itself.
+    dsd
+    
+    ds
 -----
 
 The `SquashEntry` class is meant to be extended and then serialized with your
