@@ -6,12 +6,31 @@
 <module name="Checker">
     <module name="NewlineAtEndOfFile"/>
     <module name="FileLength"/>
+    <module name="FileT        <!-- See http://checkstyle.sf.net/config_javadoc.html -->
+        <!--module name="JavadocMethod"/-->
+        <module name="JavadocType"/>
+        <!--module name="JavadocVariable"/-->
+        <module name="JavadocStyle"/>
+        <property name="message" value="Line has trailing spaces."/>abCharacter"/>
+
+    <!-- Trailing spaces -->
+    <module name="RegexpSingleline">
+        <property name="format" value="\s+$"/>
+        ame="NewlineAtEndOfFile"/>
+    <module name="FileLength"/>
     <module name="FileTabCharacter"/>
 
     <!-- Trailing spaces -->
     <module name="RegexpSingleline">
         <property name="format" value="\s+$"/>
         <property name="message" value="Line has trailing spaces."/>
+    </module>
+
+    <module name="TreeWalker">
+        <property name="cacheFile" value="${checkstyle.cache.file}"/>
+
+        <!-- Checks for Javadoc comments.                     -->
+
     </module>
 
     <module name="TreeWalker">
@@ -94,6 +113,12 @@
         <module name="EqualsHashCode"/>
         <!--module name="HiddenField"/-->
         <module name="IllegalInstantiation"/>
+                <!-- See http://checkstyle.sf.net/config_javadoc.html -->
+        <!--module name="JavadocMethod"/-->
+        <module name="JavadocType"/>
+        <!--module name="JavadocVariable"/-->
+        <module name="JavadocStyle"/>
+        <property name="message" value="Line has trailing spaces."/>
         <module name="InnerAssignment"/>
         <!--module name="MagicNumber"/-->
         <module name="MissingSwitchDefault"/>
