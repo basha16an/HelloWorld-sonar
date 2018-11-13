@@ -13,14 +13,17 @@ how about yu
 i am an indian
 
 al String API_KEY = "YOUR_API_KEY";
- This is great country
- private static final String CLIENT_ID = "android";
-    private static All perople are very professional final String DEBUG = "Debug";
+    private static final String DEB
+    I am not abl eproceed
+    UG = "Debug";
     private static final String RELEASE = "Release";
     how can i become great
     // Transient so it doesn't try to serialize itself.
-    dsd
-    
+    this is an indian moonety
+    kjhsdls
+    kjsd
+    lsds
+    s
     ds
 -----
 
